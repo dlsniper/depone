@@ -1,0 +1,11 @@
+[[constraint]]
+  name = "github.com/sirupsen/logrus"
+  version = "1.0.3"
+
+[[override]]
+  name = "golang.org/x/crypto"
+  revision = "2fc4c88bf43f0ea5ea305eae2b7af24b2cc93287"
+
+[prune]
+  go-tests = true
+  unused-packages = true
